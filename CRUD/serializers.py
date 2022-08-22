@@ -4,4 +4,4 @@ from .models import kegiatan
 class SerializerKegiatan(serializers.ModelSerializer):
     class Meta: 
         model = kegiatan
-        fields = ['id','name','description',"created_at"]
+        fields = '__all__'
